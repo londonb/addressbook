@@ -9,5 +9,5 @@ describe('Contact', function() {
   it("adds the fullName method to a contact", function() {
     var testContact = new Contact("Sherlock","Holmes");
     expect(testContact.fullName()).to.equal("Sherlock Holmes");
-  })
+  });
 });
